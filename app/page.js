@@ -177,7 +177,7 @@ export default function Home() {
                 </div>
                 <div className="mb-4">
                   <p className="fw-semibold mb-1">📍 Address</p>
-                  <p className="text-muted">123 Education Street, Learning City</p>
+                  <p className="text-muted">Ali Building First floor, Gali No. 6, Colony-Munshi Pura, Sahadat Paru Road, Mau - 275201</p>
                 </div>
                 <div>
                   <h6 className="fw-bold">Business Hours</h6>
