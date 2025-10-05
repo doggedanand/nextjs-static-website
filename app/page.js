@@ -18,6 +18,19 @@ export default function Home() {
           name="description"
           content="Expert-led courses in Mathematics, Science, Language Arts, and Coding. Personalized learning with certified tutors."
         />
+        {/*  Google Analytics Scripts */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-QYYWXRL1SX"
+        />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QYYWXRL1SX');
+        `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -219,23 +232,23 @@ export default function Home() {
             </div>
             <div className="col-lg-6">
               <div className="row ">
-              <div className="col-lg-6 col-6">
-              <h6 className="fw-bold mb-3">Connect</h6>
-              <div className="d-flex flex-column">
-                <a href="#" className="text-light opacity-75 text-decoration-none mb-2">Facebook</a>
-                <a href="#" className="text-light opacity-75 text-decoration-none mb-2">Twitter</a>
-                <a href="#" className="text-light opacity-75 text-decoration-none mb-2">Instagram</a>
-                <a href="#" className="text-light opacity-75 text-decoration-none">LinkedIn</a>
-              </div>
-              </div>
-              <div className="col-lg-6 col-6">
-                <h6 className="fw-bold mb-3">Quick Links</h6>
-                <div className="d-flex flex-column">
-                  <a href="#home" className="text-light opacity-75 text-decoration-none mb-2">Home</a>
-                  <a href="#about" className="text-light opacity-75 text-decoration-none mb-2">About</a>
-                  <a href="#contact" className="text-light opacity-75 text-decoration-none">Contact</a>
+                <div className="col-lg-6 col-6">
+                  <h6 className="fw-bold mb-3">Connect</h6>
+                  <div className="d-flex flex-column">
+                    <a href="#" className="text-light opacity-75 text-decoration-none mb-2">Facebook</a>
+                    <a href="#" className="text-light opacity-75 text-decoration-none mb-2">Twitter</a>
+                    <a href="#" className="text-light opacity-75 text-decoration-none mb-2">Instagram</a>
+                    <a href="#" className="text-light opacity-75 text-decoration-none">LinkedIn</a>
+                  </div>
                 </div>
-              </div>
+                <div className="col-lg-6 col-6">
+                  <h6 className="fw-bold mb-3">Quick Links</h6>
+                  <div className="d-flex flex-column">
+                    <a href="#home" className="text-light opacity-75 text-decoration-none mb-2">Home</a>
+                    <a href="#about" className="text-light opacity-75 text-decoration-none mb-2">About</a>
+                    <a href="#contact" className="text-light opacity-75 text-decoration-none">Contact</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
