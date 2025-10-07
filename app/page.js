@@ -92,6 +92,26 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* YT Section */}
+      <section className="py-5 bg-white">
+        <div className="container py-4 text-center">
+          <h2 className="display-5 fw-bold mb-4 text-dark">Follow Our YouTube Channel</h2>
+          <p className="lead text-muted mb-4">
+            Discover educational content, tutorials, and tips on our YouTube channel!
+          </p>
+          <div className="ratio ratio-16x9 mb-4" style={{ maxWidth: '800px', margin: '0 auto' }}>
+            <iframe width="1318" height="747" src="https://www.youtube.com/embed/fusaDy-dQVI" title="आंखों पर पट्टी बांध कर स्पर्श से पहचान करने की अनोखी शक्ति" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          </div>
+          <a
+            href="https://www.youtube.com/@Brainbooster01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary px-4"
+          >
+            Visit Brain Booster Academy on YouTube
+          </a>
+        </div>
+      </section>
       {/* Features Section */}
       <section className="py-5 bg-light">
         <div className="container py-4">
@@ -119,26 +139,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      {/* YT Section */}
-      <section className="py-5 bg-white">
-        <div className="container py-4 text-center">
-          <h2 className="display-5 fw-bold mb-4 text-dark">Follow Our YouTube Channel</h2>
-          <p className="lead text-muted mb-4">
-            Discover educational content, tutorials, and tips on our YouTube channel!
-          </p>
-          <div className="ratio ratio-16x9 mb-4" style={{ maxWidth: '800px', margin: '0 auto' }}>
-            <iframe width="1318" height="747" src="https://www.youtube.com/embed/fusaDy-dQVI" title="आंखों पर पट्टी बांध कर स्पर्श से पहचान करने की अनोखी शक्ति" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </div>
-          <a
-            href="https://www.youtube.com/@Brainbooster01"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary px-4"
-          >
-            Visit Brain Booster Academy on YouTube
-          </a>
         </div>
       </section>
       {/* About Section */}
